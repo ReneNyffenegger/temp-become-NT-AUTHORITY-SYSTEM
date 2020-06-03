@@ -1,0 +1,6 @@
+     
+     https://stackoverflow.com/a/30543362/180275
+
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe" /v Debugger /t REG_SZ /d "C:\windows\system32\cmd.exe"
+
+--> Unfortunately, this does not work, either.
